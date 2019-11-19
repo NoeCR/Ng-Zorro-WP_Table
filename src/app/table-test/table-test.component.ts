@@ -62,9 +62,7 @@ export class TableTestComponent implements OnInit, OnChanges {
     const htmlElements = [];
     Object.keys(data).map( (el) => {
       let element;
-      // console.log(el);
       if ( Object.keys (this.formatters).indexOf(el) !== -1 ) {
-        // console.log(this.formatters[el].type);
         if ( this.formatters[el].type === 'date' ) {
           element = `${this.datepipe.transform(data[el], this.formatters[el].format)}`;
         }
