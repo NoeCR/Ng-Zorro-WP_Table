@@ -1,0 +1,122 @@
+[
+    {
+      "id": "9b338f62-1ca1-476d-988f-75f7b8dcae32",
+      "createdAt": "2019-11-13T11:19:44.900Z",
+      "status": "enabled",
+      "totalPoints": 0
+    },
+    {
+      "id": "9ff7748d-aa1f-4184-b44b-17703bd4ea40",
+      "createdAt": "2019-11-13T11:19:44.900Z",
+      "status": "enabled",
+      "totalPoints": 0
+    },
+    {
+    "id": "48800994-79b0-4b01-a9d6-ffe9be7b1e92",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "disabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "781fb081-446a-4a81-92d0-573a6295e4e8",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "banned",
+    "totalPoints": 0
+    },
+    {
+    "id": "7e2318d3-9e08-42d3-885a-c42a63bb3fef",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "enabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "f8e36a3b-afe8-4677-846b-18dcaa838ef5",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "disabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "e16f34e7-b35c-41c9-8429-e1e162c6051a",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "disabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "4ab67bfa-047d-420f-bc63-48227d50aab1",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "disabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "31a6bcf9-1a20-4b31-bc4f-20103dacffe7",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "enabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "b159b85c-59c7-4251-96ac-a881bf6680e3",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "banned",
+    "totalPoints": 0
+    },
+    {
+    "id": "587d56a0-3692-493e-9d1a-ccf59953fabf",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "banned",
+    "totalPoints": 0
+    },
+    {
+    "id": "f6eec71c-8414-4fdc-827c-574b323f4f92",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "disabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "1fb27eac-8951-4054-b280-584f82809e0a",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "disabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "644b71ae-4b6b-43a0-9726-474dccb62dad",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "pending",
+    "totalPoints": 0
+    },
+    {
+    "id": "23c5be79-bdfc-4793-8e09-643a9d860af6",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "enabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "fe44ba1a-ed01-4849-81a6-b664dd379638",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "enabled",
+    "totalPoints": 0
+    },
+    {
+    "id": "96826300-7ff2-4810-8f27-e709c663fca4",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "pending",
+    "totalPoints": 0
+    },
+    {
+    "id": "067b84a9-67e3-4023-b1e4-7c698e0643e6",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "pending",
+    "totalPoints": 0
+    },
+    {
+    "id": "cdf72bcb-f121-441a-98bd-3de8ebb5ed57",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "banned",
+    "totalPoints": 0
+    },
+    {
+    "id": "ff41e479-113b-4bfe-ab7e-740328d713d9",
+    "createdAt": "2019-11-13T11:19:44.900Z",
+    "status": "enabled",
+    "totalPoints": 0
+    }
+  ]

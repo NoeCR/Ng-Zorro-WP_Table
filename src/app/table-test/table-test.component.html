@@ -1,0 +1,77 @@
+
+    <nz-table #nzTable [nzData]="listOfDisplayData" [nzShowPagination]="tablePagination" >
+      <thead>
+        <tr *ngIf="tableFields">
+          <th *ngFor="let field of tableFields">{{ field | testTransform }}</th>
+          <th *ngIf="actions">Actions</th>
+          <th nzCustomFilter>
+
+            <nz-dropdown
+              nzTrigger="click"
+              nzPlacement="bottomRight"
+              [nzClickHide]="false"
+              nzTableFilter
+              #dropdown
+              *ngIf="filters">
+
+              <i
+                nz-icon
+                nzType="search"
+                class="ant-table-filter-icon"
+                [class.ant-table-filter-open]="dropdown.nzVisible"
+                nz-dropdown
+              ></i>
+
+              <div class="search-box">
+
+                  <nz-select
+                    [(ngModel)]="searchType"
+                    (ngModelChange)="searchQuery = ''; getFilter()"
+                    class="custom-select custom-select-sm"
+                  >
+                    <nz-option *ngFor="let filter of filters"
+                      nzLabel="{{ filter | testTransform }}"
+                      nzValue="{{ filter }}"></nz-option>
+
+                  </nz-select>
+
+                  <nz-select
+                    [(ngModel)]="searchQuery"
+                    class="custom-select custom-select-sm"
+                    *ngIf="subFilter.length > 1; else noSubFilter"
+                  >
+                    <nz-option *ngFor="let fil of subFilter" nzLabel="{{ fil | testTransform }}" nzValue="{{fil}}"></nz-option>
+                  </nz-select>
+
+                <ng-template #noSubFilter>
+                  <input
+                    nz-input
+                    type="text"
+                    (focus)="searchQuery = ''"
+                    class="form-control"
+                    placeholder="Search"
+                    [(ngModel)]="searchQuery"
+                    *ngIf="searchType !== 'type'"/>
+                </ng-template>
+
+                <button nz-button nzSize="small" nzType="primary" (click)="search()" class="search-button">
+                  Search
+                </button>
+
+                <button nz-button nzSize="small" (click)="reset()">Reset</button>
+
+              </div>
+
+            </nz-dropdown>
+
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of nzTable.data">
+          <td *ngFor="let value of getValues(data)" [innerHTML]="value"></td>
+          <td *ngIf="actions"></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </nz-table>

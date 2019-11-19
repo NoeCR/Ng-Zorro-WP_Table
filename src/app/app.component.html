@@ -1,0 +1,18 @@
+<!-- NG-ZORRO -->
+<nz-layout>
+  <nz-content class="inner-content">
+    <div nz-row nzType="flex" nzJustify="center" nzAlign="middle">
+      <div nz-col nzSpan="18">
+        <app-table-test
+          [collection]="collection"
+          [filters]="filters"
+          [subFilters]="subFilters"
+          [formatters]="colFormatter"
+          (valueChange)=loadData($event)
+        ></app-table-test>
+      </div>
+    </div>
+  </nz-content>
+</nz-layout>
+
+
